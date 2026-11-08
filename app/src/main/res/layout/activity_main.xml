@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#F5F7FA" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="18dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="BiteBasket" android:textColor="#17365D" android:textSize="30sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Good food. Delivered with care." android:textColor="#64748B" android:layout_marginBottom="18dp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Spice Route Kitchen  •  4.5 ★" android:textColor="#17365D" android:textSize="18sp" android:textStyle="bold" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="MENU" android:textColor="#17365D" android:textSize="20sp" android:textStyle="bold" android:layout_marginTop="16dp" />
+        <LinearLayout android:id="@+id/menuContainer" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="YOUR CART" android:textColor="#17365D" android:textSize="20sp" android:textStyle="bold" android:layout_marginTop="16dp" />
+        <TextView android:id="@+id/txtCart" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="#FFFFFF" android:padding="14dp" android:text="Your cart is empty." android:textColor="#334155" />
+        <CheckBox android:id="@+id/checkCoupon" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Apply SAVE10 coupon (10% off on orders ₹300 or above)" android:textColor="#334155" />
+        <Button android:id="@+id/btnPlaceOrder" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="PLACE ORDER" android:backgroundTint="#176B50" android:textColor="#FFFFFF" />
+        <TextView android:id="@+id/txtOrderStatus" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginTop="14dp" android:background="#EAF2F8" android:padding="14dp"
+            android:text="Order status will appear here." android:textColor="#17365D" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="ORDER HISTORY" android:textColor="#17365D" android:textSize="20sp" android:textStyle="bold" android:layout_marginTop="16dp" />
+        <TextView android:id="@+id/txtHistory" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="#FFFFFF" android:padding="14dp" android:text="No previous orders." android:textColor="#334155" />
+    </LinearLayout>
+</ScrollView>
